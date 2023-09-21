@@ -1,0 +1,13 @@
+.content {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 20px;
+  width: 95%;
+}
+
+@media(min-width: 1020px) {
+  .content__banner {
+    height: 500px;
+    width: 100%;
+  }
+}
