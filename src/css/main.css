@@ -5,9 +5,5 @@
   width: 95%;
 }
 
-@media(min-width: 1020px) {
-  .content__banner {
-    height: 500px;
-    width: 100%;
-  }
+.content__banner {
 }
