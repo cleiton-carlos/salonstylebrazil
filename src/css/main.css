@@ -1,9 +1,62 @@
 .content {
   margin: 0 auto;
   max-width: 1200px;
-  padding-top: 20px;
   width: 95%;
 }
 
-.content__banner {
+.content__section {
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.content__container {
+  margin-left: 8%;
+  position: absolute;
+}
+
+.content__sectionParagraph {
+  color: #e6b89b;
+  text-transform: capitalize;
+  width: 70px;
+  line-height: 18px;
+  font-size: 22px;
+  margin-top: 30px;  
+  width: 70px;
+}
+
+.content__sectionSecondParagraph {
+  width: 130px;
+  line-height: 15px;
+  margin-top: 10px;
+  width: 126px;
+}
+
+.--paragraph {
+  font-family: 'Croissant One', cursive;
+  line-height: 18px;
+}
+
+.content__sectionBanner {
+  width: 100%;
+}
+
+@media(min-width: 425px) {
+  .content__sectionParagraph {
+    margin-top: 45px
+  }
+
+  .content__container {
+    left: 7%;
+  }
+}
+
+@media(min-width: 1024px) {
+  .content__sectionBanner {
+    object-fit: cover;
+    height: 500px;
+  }
 }
