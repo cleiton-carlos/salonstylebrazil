@@ -1,6 +1,10 @@
 .header {
   background-color: #eadbdd;
   padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .header__container {
