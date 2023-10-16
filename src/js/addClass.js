@@ -1,5 +1,5 @@
-export default function addClass(element) {
+export default function addClass(element,nameClass) {
   if(!element.style.display) {
-    element.classList.add('block');
+    element.classList.toggle(nameClass);
   }
 }

@@ -9,7 +9,7 @@ const newImage = document.createElement('img');
 
 buttons.forEach((button,index) => {
   button.addEventListener('click',() => {
-    addClass(services[index]);
+    addClass(services[index],'block');
     body.classList.add('scrollNone');
     overlay.classList.add('block');
   })
