@@ -296,8 +296,7 @@
 }
 
 .activeImage {
-  display: block;
-  height: 310px;
+  height: 310;
   left: 50%;
   position: fixed;
   top: 50%;
@@ -305,6 +304,7 @@
   width: 300px;
   z-index: 2000;
 }
+ 
 
 @media(min-width: 260px) {
   .content__list {
@@ -332,6 +332,11 @@
 @media(min-width: 425px) {
   .services__listContainer,.services__readMore {
     width: 320px;
+  }
+
+  .activeImage {
+    height: 360px;
+    width: 330px;
   }
 }
 
