@@ -11,7 +11,7 @@ module.exports = {
     filename: '[name].js',
     path: __dirname + '/public'
   },
-  mode: 'production',
+  mode: 'development',
   plugins: [
     new CopyWebpackPlugin({
       patterns: [
