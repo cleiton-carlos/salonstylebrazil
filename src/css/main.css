@@ -296,7 +296,7 @@
 }
 
 .activeImage {
-  height: 310;
+  height: 310px;
   left: 50%;
   position: fixed;
   top: 50%;
@@ -335,7 +335,7 @@
   }
 
   .activeImage {
-    height: 360px;
+    height: 350px;
     width: 330px;
   }
 }
