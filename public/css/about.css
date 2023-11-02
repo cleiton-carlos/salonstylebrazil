@@ -1,0 +1,42 @@
+.content__about {
+  color: #bf8076;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-size: 24px;
+  font-family: 'Croissant One', cursive;
+  margin-top: 115px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.content__imageChefe {
+  border-radius: 5px;
+  margin-left: 7.5%;
+  width: 85%;
+}
+
+.content__descriptionAbout {
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+@media(min-width: 768px) {
+  .content__figure {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content__imageChefe {
+    margin-left: 0;
+    width: 380px;
+  }
+  
+  .content__descriptionAbout {
+    line-height: 30px;
+    margin-left: 10px;  
+  }
+
+  .footer {
+    top: 100%;
+  }
+}

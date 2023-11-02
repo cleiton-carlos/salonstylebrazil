@@ -1,0 +1,1 @@
+function addClass(s,a){s.style.display||s.classList.add(a)}export default addClass;

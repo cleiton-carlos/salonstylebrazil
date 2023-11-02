@@ -1,0 +1,1 @@
+export default function removeClass(...e){e.forEach((e=>{e.classList.remove("block"),e.classList.remove("scrollNone"),e.classList.remove("activeImage"),e.classList.remove("flex")}))}
