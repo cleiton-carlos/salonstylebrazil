@@ -1,1 +1,8 @@
-export default function removeClass(...e){e.forEach((e=>{e.classList.remove("block"),e.classList.remove("scrollNone"),e.classList.remove("activeImage"),e.classList.remove("flex")}))}
+export default function removeClass(...elements) {
+  elements.forEach((element) => {
+    element.classList.remove('block');
+    element.classList.remove('scrollNone');
+    element.classList.remove('activeImage');
+    element.classList.remove('flex');
+  })
+}

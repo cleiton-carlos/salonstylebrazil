@@ -1,1 +1,7 @@
-function addClass(s,a){s.style.display||s.classList.add(a)}export default addClass;
+function addClass(element,nameClass) {
+  if(!element.style.display) {
+    element.classList.add(nameClass);
+  }
+}
+
+export default addClass;
