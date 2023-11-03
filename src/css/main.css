@@ -305,6 +305,14 @@
   z-index: 2000;
 }
  
+.contentUrlTelephone {
+  border-radius: 50px;
+  background-color: #eadbdd;
+  left: 76%;
+  position: fixed;
+  padding: 10px;
+  top: 85%;
+}
 
 @media(min-width: 260px) {
   .content__list {
