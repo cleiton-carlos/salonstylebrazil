@@ -11,12 +11,13 @@ module.exports = {
     filename: '[name].js',
     path: __dirname + '/public'
   },
-  mode: 'development',
+  mode: 'production',
   plugins: [
     new CopyWebpackPlugin({
       patterns: [
         { from: 'src/index.html', to: 'index.html'},
         { from: 'src/about.html', to: 'about.html' },
+        { from: 'src/contact.html', to: 'contact.html' },
         { from: 'src/css', to: 'css' },
         { from: 'src/img', to: 'img' },
         { from: 'src/js', to: 'js' }

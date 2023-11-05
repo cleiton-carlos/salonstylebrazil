@@ -1,3 +1,1 @@
-import menuMobile from "./menuMobile";
-
-menuMobile();
+import menuMobile from"./menuMobile";menuMobile();

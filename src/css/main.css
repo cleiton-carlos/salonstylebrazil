@@ -356,11 +356,31 @@
   .content__image {
     height: 250px;
   }
+
+  .services__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .services__listContainer {
+    width: 360px;
+  }
+
+  .services__listContainer:not(:last-child) {
+    margin: 2px;
+  }
 }
 
 @media(min-width: 1024px) {
   .content__sectionBanner {
     object-fit: cover;
     height: 500px;
+  }
+
+  .services__list {
+  }
+
+  .services__listContainer {
+    width: 500px;
   }
 }

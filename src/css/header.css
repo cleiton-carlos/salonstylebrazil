@@ -50,12 +50,41 @@
 
 .navigation__link {
   color: #fff;
+  cursor: pointer;
   display: block;
   font-family: sans-serif;
   margin-top: 20px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .header__buttonMenu {
   width: 34px;
+}
+
+@media(min-width: 600px) {
+  .header__buttonMenu {
+    display: none;
+  }
+
+  .navigation {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    transform: translateX(0)
+  }
+
+  .navigation__link {
+    color: #252323;
+    margin-top: 0;
+  }
+
+  .navigation__link {
+    margin-left: 20px;
+  }
 }
