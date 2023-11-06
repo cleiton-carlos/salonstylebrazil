@@ -22,21 +22,22 @@
 
 @media(min-width: 768px) {
   .content__figure {
+    align-items: center;
     display: flex;
-    justify-content: space-between;
   }
 
   .content__imageChefe {
     margin-left: 0;
+    height: 400px;
     width: 380px;
   }
   
   .content__descriptionAbout {
-    line-height: 30px;
+    line-height: 21px;
     margin-left: 10px;  
   }
 
   .footer {
-    top: 100%;
+    margin-top: 330px;
   }
 }
