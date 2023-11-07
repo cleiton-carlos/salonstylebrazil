@@ -67,7 +67,7 @@
   background-color: #252323;
   border-radius: 5px;
   font-family: sans-serif;
-  height: 240px;
+  height: 265px;
   padding: 12px;
   line-height: 1.0;
   width: 280px;
@@ -105,7 +105,7 @@
   width: 30px;
 }
 
-.services__item,.services__price {
+.services__item,.services__price,.services__consultation {
   color: #e7dddd;
 }
 
@@ -133,9 +133,10 @@
 .services__buttonRead {
   cursor: pointer;
   color: #fff;
+  position: relative;
+  top: 8px;
   text-transform: capitalize;
   text-decoration: underline;
-  height: 100%;
 }
 
 .overlay {
@@ -372,14 +373,6 @@
 }
 
 @media(min-width: 1024px) {
-  .content__sectionBanner {
-    object-fit: cover;
-    height: 500px;
-  }
-
-  .services__list {
-  }
-
   .services__listContainer {
     width: 500px;
   }
