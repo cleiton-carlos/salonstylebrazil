@@ -10,12 +10,8 @@
   width: 95%;
 }
 
-.instagram,.facebook {
-  width: 32px;
-}
-
 .instagram {
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 .footer__socialNetworks {
