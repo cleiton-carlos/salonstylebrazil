@@ -1,5 +1,5 @@
 import classList from "./classList";
-import menu from "./menu";
+import menuMobile from "./menuMobile"
 
 classList();
-menu();
+menuMobile();
